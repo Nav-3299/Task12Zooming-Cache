@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "791A81AD-204A-48EA-A4DE-7293A57C8146"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA5C849E-6176-4880-B922-87A8A7B54F3C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task12ZoomingAndCache/Controller/FirstViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "getResponseFromApi()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AA5C849E-6176-4880-B922-87A8A7B54F3C - ee8b846b9b7e60ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Array&lt;Task12ZoomingAndCache.SectionThreeModal&gt;) -&gt; () in Task12ZoomingAndCache.FirstViewController.getResponseFromApi() -&gt; ()"
+                  moduleName = "Task12ZoomingAndCache"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/navpreetkaur/Documents/Swift%20Practicals/All%20Tasks/Task12ZoomingAndCache/Task12ZoomingAndCache/Controller/FirstViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "AA5C849E-6176-4880-B922-87A8A7B54F3C - c8b7a0a820babb95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Task12ZoomingAndCache.SectionThreeModal) -&gt; () in Task12ZoomingAndCache.FirstViewController.getResponseFromApi() -&gt; ()"
+                  moduleName = "Task12ZoomingAndCache"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/navpreetkaur/Documents/Swift%20Practicals/All%20Tasks/Task12ZoomingAndCache/Task12ZoomingAndCache/Controller/FirstViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "320">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2AD353A7-D9D0-4220-9796-B403DAEF026D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task12ZoomingAndCache/Controller/FirstViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "getResponseFromApi()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2AD353A7-D9D0-4220-9796-B403DAEF026D - 2ba1a2e045299004"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task12ZoomingAndCache.FirstViewController.getResponseFromApi() -&gt; ()"
+                  moduleName = "Task12ZoomingAndCache"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/navpreetkaur/Documents/Swift%20Practicals/All%20Tasks/Task12ZoomingAndCache/Task12ZoomingAndCache/Controller/FirstViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "836">
+               </Location>
+               <Location
+                  uuid = "2AD353A7-D9D0-4220-9796-B403DAEF026D - ee8b846b9b7e60af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Array&lt;Task12ZoomingAndCache.SectionThreeModal&gt;) -&gt; () in Task12ZoomingAndCache.FirstViewController.getResponseFromApi() -&gt; ()"
+                  moduleName = "Task12ZoomingAndCache"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/navpreetkaur/Documents/Swift%20Practicals/All%20Tasks/Task12ZoomingAndCache/Task12ZoomingAndCache/Controller/FirstViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "2AD353A7-D9D0-4220-9796-B403DAEF026D - 2ba1a2e045299004"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task12ZoomingAndCache.FirstViewController.getResponseFromApi() -&gt; ()"
+                  moduleName = "Task12ZoomingAndCache"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/navpreetkaur/Documents/Swift%20Practicals/All%20Tasks/Task12ZoomingAndCache/Task12ZoomingAndCache/Controller/FirstViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "824">
+               </Location>
+               <Location
+                  uuid = "2AD353A7-D9D0-4220-9796-B403DAEF026D - c8b7a0a820babbd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Task12ZoomingAndCache.SectionThreeModal) -&gt; () in Task12ZoomingAndCache.FirstViewController.getResponseFromApi() -&gt; ()"
+                  moduleName = "Task12ZoomingAndCache"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/navpreetkaur/Documents/Swift%20Practicals/All%20Tasks/Task12ZoomingAndCache/Task12ZoomingAndCache/Controller/FirstViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "108CB674-1E9C-46EA-A109-6A669CE0375A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task12ZoomingAndCache/Helper/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "callApi(callType:url:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "108CB674-1E9C-46EA-A109-6A669CE0375A - bbcefe1b532dfe8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Task12ZoomingAndCache.NetworkManager.callApi&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(callType: &#x3c4;_0_0.Type, url: Swift.String, completionHandler: (&#x3c4;_0_0) -&gt; ()) -&gt; ()"
+                  moduleName = "Task12ZoomingAndCache"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/navpreetkaur/Documents/Swift%20Practicals/All%20Tasks/Task12ZoomingAndCache/Task12ZoomingAndCache/Helper/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "528">
+               </Location>
+               <Location
+                  uuid = "108CB674-1E9C-46EA-A109-6A669CE0375A - bbcefe1b532dfe8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Task12ZoomingAndCache.NetworkManager.callApi&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(callType: &#x3c4;_0_0.Type, url: Swift.String, completionHandler: (&#x3c4;_0_0) -&gt; ()) -&gt; ()"
+                  moduleName = "Task12ZoomingAndCache"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/navpreetkaur/Documents/Swift%20Practicals/All%20Tasks/Task12ZoomingAndCache/Task12ZoomingAndCache/Helper/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "288">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5575F77D-CECC-432B-821B-D5A2B1ABF558"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task12ZoomingAndCache/Helper/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "callApi(callType:url:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5575F77D-CECC-432B-821B-D5A2B1ABF558 - bbcefe1b532dfe01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Task12ZoomingAndCache.NetworkManager.callApi&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(callType: &#x3c4;_0_0.Type, url: Swift.String, completionHandler: (&#x3c4;_0_0) -&gt; ()) -&gt; ()"
+                  moduleName = "Task12ZoomingAndCache"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/navpreetkaur/Documents/Swift%20Practicals/All%20Tasks/Task12ZoomingAndCache/Task12ZoomingAndCache/Helper/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "632">
+               </Location>
+               <Location
+                  uuid = "5575F77D-CECC-432B-821B-D5A2B1ABF558 - bbcefe1b532dfe01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Task12ZoomingAndCache.NetworkManager.callApi&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(callType: &#x3c4;_0_0.Type, url: Swift.String, completionHandler: (&#x3c4;_0_0) -&gt; ()) -&gt; ()"
+                  moduleName = "Task12ZoomingAndCache"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/navpreetkaur/Documents/Swift%20Practicals/All%20Tasks/Task12ZoomingAndCache/Task12ZoomingAndCache/Helper/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "392">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F13D8C4-98E7-4DD3-ACD6-D52E6663ADB6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task12ZoomingAndCache/Helper/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "callApi(callType:url:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6F13D8C4-98E7-4DD3-ACD6-D52E6663ADB6 - bbcefe1b532dff85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Task12ZoomingAndCache.NetworkManager.callApi&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(callType: &#x3c4;_0_0.Type, url: Swift.String, completionHandler: (&#x3c4;_0_0) -&gt; ()) -&gt; ()"
+                  moduleName = "Task12ZoomingAndCache"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/navpreetkaur/Documents/Swift%20Practicals/All%20Tasks/Task12ZoomingAndCache/Task12ZoomingAndCache/Helper/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1548">
+               </Location>
+               <Location
+                  uuid = "6F13D8C4-98E7-4DD3-ACD6-D52E6663ADB6 - bbcefe1b532dff85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Task12ZoomingAndCache.NetworkManager.callApi&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(callType: &#x3c4;_0_0.Type, url: Swift.String, completionHandler: (&#x3c4;_0_0) -&gt; ()) -&gt; ()"
+                  moduleName = "Task12ZoomingAndCache"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/navpreetkaur/Documents/Swift%20Practicals/All%20Tasks/Task12ZoomingAndCache/Task12ZoomingAndCache/Helper/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "628">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D033D35-5CF6-49CB-B2B4-5E4A8CC170C3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task12ZoomingAndCache/Helper/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "callApi(callType:url:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0D033D35-5CF6-49CB-B2B4-5E4A8CC170C3 - bbcefe1b532dffdb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Task12ZoomingAndCache.NetworkManager.callApi&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(callType: &#x3c4;_0_0.Type, url: Swift.String, completionHandler: (&#x3c4;_0_0) -&gt; ()) -&gt; ()"
+                  moduleName = "Task12ZoomingAndCache"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/navpreetkaur/Documents/Swift%20Practicals/All%20Tasks/Task12ZoomingAndCache/Task12ZoomingAndCache/Helper/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1060">
+               </Location>
+               <Location
+                  uuid = "0D033D35-5CF6-49CB-B2B4-5E4A8CC170C3 - bbcefe1b532dffdb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Task12ZoomingAndCache.NetworkManager.callApi&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(callType: &#x3c4;_0_0.Type, url: Swift.String, completionHandler: (&#x3c4;_0_0) -&gt; ()) -&gt; ()"
+                  moduleName = "Task12ZoomingAndCache"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/navpreetkaur/Documents/Swift%20Practicals/All%20Tasks/Task12ZoomingAndCache/Task12ZoomingAndCache/Helper/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1564">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB1AECFB-951C-4889-9FA7-09EF2991F9A1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task12ZoomingAndCache/Helper/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "callApi(callType:url:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EB1AECFB-951C-4889-9FA7-09EF2991F9A1 - 4c112fd009fd874f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task12ZoomingAndCache.NetworkManager.callApi&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(callType: &#x3c4;_0_0.Type, url: Swift.String, completionHandler: (&#x3c4;_0_0) -&gt; ()) -&gt; ()"
+                  moduleName = "Task12ZoomingAndCache"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/navpreetkaur/Documents/Swift%20Practicals/All%20Tasks/Task12ZoomingAndCache/Task12ZoomingAndCache/Helper/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "EB1AECFB-951C-4889-9FA7-09EF2991F9A1 - bbcefe1b532dfe8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Task12ZoomingAndCache.NetworkManager.callApi&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(callType: &#x3c4;_0_0.Type, url: Swift.String, completionHandler: (&#x3c4;_0_0) -&gt; ()) -&gt; ()"
+                  moduleName = "Task12ZoomingAndCache"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/navpreetkaur/Documents/Swift%20Practicals/All%20Tasks/Task12ZoomingAndCache/Task12ZoomingAndCache/Helper/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "288">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

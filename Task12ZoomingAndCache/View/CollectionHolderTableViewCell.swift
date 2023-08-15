@@ -15,13 +15,16 @@ class CollectionHolderTableViewCell: UITableViewCell {
     
  //MARK: VARIABLE
     static let identifier = "CollectionHolderTableViewCell"
-    var section : IndexPath!
-    
+    var section : SectionsOfTableView!
+    var itemsInCell : [SectionsOfTableView] = [.top , .middle , .bottom]
+    var delegate : ((SecondViewController)->())?
+ 
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-         
+        print("Before Registration")
         registerCollectionViewCell()
+        print("After Registration")
         
     }
 

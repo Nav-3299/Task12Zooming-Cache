@@ -24,8 +24,11 @@ extension FirstViewController : UITableViewDataSource , UITableViewDelegate{
         guard let cell = tableView.dequeueReusableCell(withIdentifier: CollectionHolderTableViewCell.identifier, for: indexPath) as? CollectionHolderTableViewCell else{
             return UITableViewCell()
         }
-        cell.section = indexPath
-     
+        cell.delegate = {[weak self] vc in
+            self?.present(vc, animated: true)
+        }
+        cell.tableCollectionView.tag = indexPath.section
+        cell.tableCollectionView.reloadData()
         return cell
        
     }
@@ -38,6 +41,6 @@ extension FirstViewController : UITableViewDataSource , UITableViewDelegate{
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return tableView.frame.height / 3
+        return tableView.frame.height - 50 / 3
     }
 }

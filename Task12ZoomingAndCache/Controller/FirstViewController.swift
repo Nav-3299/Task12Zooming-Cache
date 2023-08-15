@@ -7,7 +7,7 @@
 
 import UIKit
 
-enum SectionsOfTableView{
+enum SectionsOfTableView : CaseIterable{
     case top
     case middle
     case bottom
@@ -22,9 +22,7 @@ class FirstViewController: UIViewController {
     //MARK: Variables
     var arrayOfSections : [SectionsOfTableView] = [.top , .middle , .bottom]
     
-    var secOneModal = [SectionOneModal]()
-    var secStringModal = [String]()
-    var secThreeModal = SectionThreeModal()
+   
     //MARK: Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,26 +42,29 @@ class FirstViewController: UIViewController {
         let group = DispatchGroup()
         
         group.enter()
-        NetworkManager.shared.callApi(callType: [SectionOneModal].self, url: ApiStrings.sectionOneApi) {[weak self] result in
-            self?.secOneModal = result
-            print("🐔 \(self?.secOneModal ?? [])")
+        NetworkManager.shared.callApi(callType: [SectionOneModal].self, url: ApiStrings.sectionOneApi) { result in
+            DataCount.shared.secOneModal = result
+            print("🐔 \(DataCount.shared.secOneModal)")
             group.leave()
         }
         
         group.enter()
-        NetworkManager.shared.callApi(callType: [String].self, url: ApiStrings.sectionTwoApi) {[weak self] result in
-            self?.secStringModal = result
-            print("😊 \(self?.secStringModal ?? [])")
+        NetworkManager.shared.callApi(callType: [String].self, url: ApiStrings.sectionTwoApi) { result in
+            DataCount.shared.secStringModal = result
+            print("😊 \( DataCount.shared.secStringModal )")
             group.leave()
         }
         
         group.enter()
-        NetworkManager.shared.callApi(callType: SectionThreeModal.self, url: ApiStrings.sectionThreeApi) {[weak self] result in
-            self?.secThreeModal = result
-            print("👻 \(self?.secThreeModal.photos ?? [])")
+        NetworkManager.shared.callApi(callType: SectionThreeModal.self, url: ApiStrings.sectionThreeApi) { result in
+            DataCount.shared.secThreeModal = result
+            print("👻 \(DataCount.shared.secThreeModal.photos ?? [])")
             group.leave()
         }
         
+        Task{
+            
+        }
         group.notify(queue: .main) {
             self.ImageHolderTableView.reloadData()
         }

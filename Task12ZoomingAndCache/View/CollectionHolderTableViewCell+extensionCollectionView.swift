@@ -64,17 +64,17 @@ extension CollectionHolderTableViewCell : UICollectionViewDelegate , UICollectio
         switch collectionView.tag {
           
                 case 0:
-                    cell.mainView.backgroundColor = .orange
+//                    cell.mainView.backgroundColor = .orange
                     cell.setUpCell(imageUrl: DataCount.shared.secOneModal[indexPath.row].thumbnailUrl ?? "")
                 case 1:
                     let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout
                     
                     layout?.scrollDirection = .horizontal
-                    cell.mainView.backgroundColor = .red
+//                    cell.mainView.backgroundColor = .red
                     
                     cell.setUpCell(imageUrl: DataCount.shared.secStringModal[indexPath.row])
                 case 2:
-                    cell.mainView.backgroundColor = .orange
+//                    cell.mainView.backgroundColor = .orange
                     cell.setUpCell(imageUrl: DataCount.shared.secThreeModal.photos?[indexPath.row].url ?? "")
         default:
             return UICollectionViewCell()
@@ -166,11 +166,11 @@ extension CollectionHolderTableViewCell : UICollectionViewDelegate , UICollectio
 //        for itemsInCell in self.itemsInCell {
         switch collectionView.tag{
             case 0 :
-            return CGSize(width: self.frame.width - 10 / 6 , height: 150)
+            return CGSize(width: collectionView.frame.width  / 4 , height: 150)
             case 1:
-                return CGSize(width: self.frame.width - 10 / 2, height: 150)
+                return CGSize(width: collectionView.frame.width / 2, height: 150)
             case 2:
-                return CGSize(width: self.frame.width - 10 / 3, height: 150)
+                return CGSize(width: collectionView.frame.width  / 4, height: 150)
     
         default :
             return CGSize(width: 1, height: 1)

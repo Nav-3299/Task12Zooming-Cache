@@ -30,7 +30,7 @@ class SecondViewController: UIViewController {
     }
    
     override func viewWillAppear(_ animated: Bool) {
-        showselectedImagesCollectionView.reloadData()
+//        showselectedImagesCollectionView.reloadData()
     }
     
     
@@ -64,7 +64,7 @@ extension SecondViewController : UICollectionViewDelegate , UICollectionViewData
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: self.view.frame.width, height: 500)
+        return CGSize(width: 150, height: 300)
     }
     
 }

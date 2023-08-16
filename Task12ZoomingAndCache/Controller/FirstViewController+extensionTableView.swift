@@ -41,6 +41,6 @@ extension FirstViewController : UITableViewDataSource , UITableViewDelegate{
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return tableView.frame.height - 50 / 3
+        return tableView.frame.height / 3
     }
 }

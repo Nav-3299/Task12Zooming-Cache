@@ -18,7 +18,7 @@ class ImagesCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        mainView.backgroundColor = .black
+//        mainView.backgroundColor = .black
         if section == 2{
             holderImageView.layer.cornerRadius = holderImageView.frame.height / 2
         }

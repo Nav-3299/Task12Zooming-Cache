@@ -22,17 +22,16 @@ class SecondViewController: UIViewController {
         
         showselectedImagesCollectionView.delegate = self
         showselectedImagesCollectionView.dataSource = self
-//        let layout = showselectedImagesCollectionView.collectionViewLayout as? UICollectionViewFlowLayout
-//        
-//        layout?.scrollDirection = .horizontal
-//        showselectedImagesCollectionView.reorderingCadence = .fast
-//        showselectedImagesCollectionView.reloadData()
+
+        
+        
+        
     }
    
-    override func viewWillAppear(_ animated: Bool) {
-//        showselectedImagesCollectionView.reloadData()
+    deinit{
+        print("Deninit -----> \(self)")
     }
-    
+
     
 }
 
@@ -46,24 +45,25 @@ extension SecondViewController : UICollectionViewDelegate , UICollectionViewData
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "showSelectedImagesCollectionViewCell", for: indexPath) as? showSelectedImagesCollectionViewCell else{
             return UICollectionViewCell()
         }
-        cell.closure = {[weak self] index in
-            DispatchQueue.main.async { [weak self] in
-                self?.showselectedImagesCollectionView.reloadItems(at: [index])
+
+        cell.closure = {[weak self]  in
+            DispatchQueue.main.async {
+                self?.showselectedImagesCollectionView.reloadItems(at: [indexPath])
             }
+       
         }
-        cell.index = indexPath
-        
-        if flag{
-            cell.setUpCell(flag : flag,identifier: DataCount.shared.secStringModal[indexPath.row])
-        }else{
-            if thirdSelected{
-                cell.setUpCell(flag: flag , identifier: DataCount.shared.secThreeModal.photos?[indexPath.row].url ?? "" , id : id ?? -1)
-            }else{
-                cell.setUpCell(flag : flag,identifier: DataCount.shared.secOneModal[indexPath.row].thumbnailUrl ?? "",id: id ?? -1)
-            }
-        }
-        
-        
+        cell.setUpCell(flag: flag , identifier: DataCount.shared.secThreeModal.photos?[indexPath.row].url ?? "" , id : id ?? -1)
+//
+//        if flag{
+//            cell.setUpCell(flag : flag,identifier: DataCount.shared.secStringModal[indexPath.row])
+//        }else{
+//            if thirdSelected{
+//
+//            }else{
+//                cell.setUpCell(flag : flag,identifier: DataCount.shared.secOneModal[indexPath.row].thumbnailUrl ?? "",id: id ?? -1)
+//            }
+//        }
+//
         return cell
     }
     

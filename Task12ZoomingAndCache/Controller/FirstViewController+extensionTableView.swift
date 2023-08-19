@@ -24,7 +24,20 @@ extension FirstViewController : UITableViewDataSource , UITableViewDelegate{
         guard let cell = tableView.dequeueReusableCell(withIdentifier: CollectionHolderTableViewCell.identifier, for: indexPath) as? CollectionHolderTableViewCell else{
             return UITableViewCell()
         }
-        cell.delegate = {[weak self] vc in
+        cell.delegate = {[weak self]  in
+            let id = DataCount.shared.secThreeModal.photos?[indexPath.row].id ?? -1
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: .main)
+            
+            guard let vc = storyboard.instantiateViewController(withIdentifier: "SecondViewController") as? SecondViewController else{
+                
+                return
+            }
+            
+            vc.flag = false
+            vc.thirdSelected = true
+            vc.id = id
+            vc.noOfRows = DataCount.shared.secThreeModal.photos?.count ?? 0
             self?.present(vc, animated: true)
         }
         cell.tableCollectionView.tag = indexPath.section

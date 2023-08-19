@@ -17,7 +17,7 @@ class CollectionHolderTableViewCell: UITableViewCell {
     static let identifier = "CollectionHolderTableViewCell"
     var section : SectionsOfTableView!
     var itemsInCell : [SectionsOfTableView] = [.top , .middle , .bottom]
-    var delegate : ((SecondViewController)->())?
+    var delegate : (()->())?
  
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -39,5 +39,6 @@ class CollectionHolderTableViewCell: UITableViewCell {
         tableCollectionView.register(UINib(nibName: ImagesCollectionViewCell.identifier, bundle: nil), forCellWithReuseIdentifier: ImagesCollectionViewCell.identifier)
         tableCollectionView.delegate = self
         tableCollectionView.dataSource = self
+        
     }
 }

@@ -22,6 +22,11 @@ class FirstViewController: UIViewController {
     //MARK: Variables
     var arrayOfSections : [SectionsOfTableView] = [.top , .middle , .bottom]
     
+    
+    deinit{
+        print("Deninit -----> \(self)")
+    }
+    
    
     //MARK: Lifecycle
     override func viewDidLoad() {
@@ -62,9 +67,7 @@ class FirstViewController: UIViewController {
             group.leave()
         }
         
-        Task{
-            
-        }
+       
         group.notify(queue: .main) {
             self.ImageHolderTableView.reloadData()
         }

@@ -10,25 +10,36 @@ import UIKit
 class showSelectedImagesCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var imgImageView: UIImageView!
-    var closure : ((IndexPath) -> ())?
+    var closure : (() -> ())?
     var index : IndexPath!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+       
     }
 
-    
     func setUpCell(flag : Bool,identifier : String = "" , id : Int = -1){
         
-        URLSession.shared.dataTask(with: URLRequest(url: URL(string: identifier)!)) { data, _, _ in
+        if DataCount.shared.cache[identifier] != nil{
+            self.imgImageView.image = DataCount.shared.cache[identifier]
+
             
-            if let data = data{
-                DispatchQueue.main.async { [weak self] in
-                    self?.imgImageView.image = UIImage(data: data)
-//                    self?.closure!(self!.index)
+        }else{
+            URLSession.shared.dataTask(with: URLRequest(url: URL(string: identifier)!)) { data, _, _ in
+                if let data = data{
+                        DataCount.shared.cache[identifier] = UIImage(data: data)
+                    DispatchQueue.main.async {
+                        self.imgImageView.image = DataCount.shared.cache[identifier]
+                            
+                    }
+                    self.closure!()
+                    
+                    
                 }
-            }
-        }.resume()
+            }.resume()
+        }
+        
+        
+      
     }
 }

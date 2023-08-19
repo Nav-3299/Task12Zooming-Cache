@@ -46,8 +46,12 @@ extension SecondViewController : UICollectionViewDelegate , UICollectionViewData
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "showSelectedImagesCollectionViewCell", for: indexPath) as? showSelectedImagesCollectionViewCell else{
             return UICollectionViewCell()
         }
-        
-        
+        cell.closure = {[weak self] index in
+            DispatchQueue.main.async { [weak self] in
+                self?.showselectedImagesCollectionView.reloadItems(at: [index])
+            }
+        }
+        cell.index = indexPath
         
         if flag{
             cell.setUpCell(flag : flag,identifier: DataCount.shared.secStringModal[indexPath.row])

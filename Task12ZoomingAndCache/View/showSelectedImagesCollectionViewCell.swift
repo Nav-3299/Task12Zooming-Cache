@@ -10,6 +10,8 @@ import UIKit
 class showSelectedImagesCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var imgImageView: UIImageView!
+    var closure : ((IndexPath) -> ())?
+    var index : IndexPath!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -24,6 +26,7 @@ class showSelectedImagesCollectionViewCell: UICollectionViewCell {
             if let data = data{
                 DispatchQueue.main.async { [weak self] in
                     self?.imgImageView.image = UIImage(data: data)
+//                    self?.closure!(self!.index)
                 }
             }
         }.resume()

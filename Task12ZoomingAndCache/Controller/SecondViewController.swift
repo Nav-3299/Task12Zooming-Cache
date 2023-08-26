@@ -54,12 +54,12 @@ extension SecondViewController : UICollectionViewDelegate , UICollectionViewData
         cell.index = indexPath
         
         if flag{
-            cell.setUpCell(flag : flag,identifier: DataCount.shared.secStringModal[indexPath.row])
+            cell.setUpCell(flag : flag,identifier: "\(DataCount.shared.secStringModal[indexPath.row])second")
         }else{
             if thirdSelected{
-                cell.setUpCell(flag: flag , identifier: DataCount.shared.secThreeModal.photos?[indexPath.row].url ?? "" , id : id ?? -1)
+                cell.setUpCell(flag: flag , identifier: "\(DataCount.shared.secThreeModal.photos?[indexPath.row].url ?? "")" , id : id ?? -1)
             }else{
-                cell.setUpCell(flag : flag,identifier: DataCount.shared.secOneModal[indexPath.row].thumbnailUrl ?? "",id: id ?? -1)
+                cell.setUpCell(flag : flag,identifier: "\(DataCount.shared.secOneModal[indexPath.row].thumbnailUrl ?? "")first",id: id ?? -1)
             }
         }
         

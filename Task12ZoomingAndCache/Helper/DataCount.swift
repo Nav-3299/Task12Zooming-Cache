@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 class DataCount{
     static let shared = DataCount()
@@ -14,4 +15,5 @@ class DataCount{
     var secOneModal = [SectionOneModal]()
     var secStringModal = [String]()
     var secThreeModal = SectionThreeModal()
+    var cache = [String : UIImage]()
 }
